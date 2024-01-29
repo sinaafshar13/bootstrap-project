@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(/fonts/vazir/Vazir.ttf);
+}
+@font-face {
+    font-family: 'lalezar';
+    src: url(/fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+.lalezar {
+    font-family: 'lalezar';
+}
+body {
+    font-family: 'vazir' , sans-serif;
+}
+.course-list {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.course-list-item{
+    display: flex;
+    padding: 10px 15px;
+}
+.course-list-item:hover {
+    background-color: #f2f5fc;
+}
+@media screen and (min-width:768px){
+    .position-md-fixed {position :fixed;}
+}
