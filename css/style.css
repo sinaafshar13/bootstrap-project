@@ -33,3 +33,37 @@ section:first-of-type{
     background: url('/images/header-bg.png') top center no-repeat;
     background-size: cover;
 }
+.services-box {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;    border-bottom: 4px solid;
+    border-radius: 5px;
+}
+.services-box a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.services-box.border-primary:hover {
+    background-color: #0d6efd; 
+}
+.services-box.border-success:hover {
+    background-color: #198754;
+}
+.services-box.border-warning:hover {
+    background-color: #ffc107;
+}
+.services-box:hover{
+    color: #fff;
+}
+.services-box:hover a{
+    color: #fff !important;
+}
+.pricing-box {
+    transition: all 0.5s;
+}
+.pricing-box:hover {
+    transform: scale(1.05);
+}
+.github a{
+    color: rgb(1, 0, 13);
+    text-decoration: none;
+}
