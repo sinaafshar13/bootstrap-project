@@ -63,6 +63,9 @@ section:first-of-type{
 .pricing-box:hover {
     transform: scale(1.05);
 }
+footer {
+    background-color: #f2f5fc;
+}
 .github a{
     color: rgb(1, 0, 13);
     text-decoration: none;
